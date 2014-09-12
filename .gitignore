@@ -1,3 +1,10 @@
+# Code::Blocks files
+bin/
+obj/
+*.depend
+*.layout
+*.cbTemp
+
 # Compiled Object files
 *.slo
 *.lo
@@ -26,3 +33,7 @@
 *.exe
 *.out
 *.app
+
+# SQLite amalgamation
+sqlite3.c
+sqlite3.h
